@@ -1,16 +1,27 @@
-
 # Database
 *.db
+*.sqlite3
 instance/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
 
 # OS files
 .DS_Store
 Thumbs.db
 
-*.sqlite3
-instance/
-__pycache__/
-*.pyc
-venv/
-env/
-.env
+# Logs (optional but useful)
+*.log
+
+# IDE files (optional)
+.vscode/
+.idea/
